@@ -36,16 +36,33 @@ flex-shrink: 0;
 margin-bottom: 0;
 } */
 .head-pic{
-    height: 350px;margin-bottom: 0px;
+    height: 350px;margin-top: 30px;
     padding-bottom: 0px;
+    
 }
 .primary-btn{
     background:#E55473;
     color:#FFF;
-    padding: 20px 43px;
+    padding: 10px 20px;
     border-radius: 8px;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    border-style: none;
+   
+    font-weight: 400;
+    
+}
+.feature-title{
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+    font-weight: 400;margin: 200px;
+    
+    
+}
+.f-info{
+    font-weight: 400;
+line-height: 30px;
+font-size: 20px;
+
+height: 400px;
 }
