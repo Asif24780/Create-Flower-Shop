@@ -89,7 +89,7 @@ gap: 180px;
 }  
 .foot{
     background: #111010;
-    width: 1922px;
+    /* width: 1922px; */
 height: 449px;
 flex-shrink: 0;text-align: center;
 
