@@ -37,8 +37,10 @@ flex-shrink: 0;
 margin-bottom: 0;
 } */
 .head-pic{
-    height: 350px;margin-top: 30px;
+    height: 350px; 
+    margin-top: 30px;
     padding-bottom: 0px;
+    margin: 0px;
     
 }
 .primary-btn{
@@ -56,7 +58,7 @@ margin-bottom: 0;
     text-align: center;
     
     font-size: 40px;
-    font-weight: 400;margin: 200px;
+    font-weight: 400;margin: 50px;
     
     
 }
@@ -73,12 +75,18 @@ font-size: 20px;
     justify-content: space-around;
     background: rgba(175, 65, 89, 0.20);
     align-items: center;
-    /* width: 1922px;
-height: 620px;
+    /* width: 800px;
+height: 420px;
 flex-shrink: 0; */
 border-radius: 8px;
-gap: 100px;
+gap: 50px;
+padding-left: 50px;
 
+
+}
+.sign-pic{
+    width: 318px;
+height: 420px;
 }
 .discount{
     color: red;
@@ -127,24 +135,67 @@ line-height: normal;
 display: flex;
 align-items: center;
 text-align: center;
-justify-content: center; gap: 50px;
+justify-content: space-evenly; gap: 20px;
 margin: 50px;
+background: #FFF;
+/* height: 180px;
+width: 150px; */
 }
 .b-f-1{
-    width: 370px;
-    height: 370px;
+    width: 150px;
+    height: 170px;
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
 border-top: 500px;
 }
 .b-f-2{
-    width: 370px;
-    height: 370px;border-radius: 300px 300px 0px 0px;
+    width: 150px;
+    height: 170px;
+    border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 .b-f-3{
-    width: 370px;
-    height: 370px;
+    width: 150px;
+    height: 170px;
     border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
+}
+.support-sec{
+    display: flex;
+    justify-content: space-around;
+   
+    align-items:center;
+    width:80%;
+height: 220px;
+margin: auto;
+margin-bottom :100px;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);gap: 20px;
+}
+.feature-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.photo{
+    width: 150px;
+    height: 180px;
+}
+.deal{
+    background-size: cover;
+    background-image: url(./images/Rectangle\ 9.png);
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.input{
+    display: flex;justify-content: center;
+    gap: 10px;
+
 }
