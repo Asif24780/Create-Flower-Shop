@@ -26,7 +26,7 @@ font-family: 'Work Sans', sans-serif;
 .head-info{
 color:rgba(39, 39, 39, 0.60); 
 font-size: 10px;
-font-weight: 400;
+font-weight: 400px;
 width: 400px;
 margin:32px 0px;
 }
@@ -46,26 +46,27 @@ margin-bottom: 0;
 .primary-btn{
     background:#E55473;
     color:#FFF;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 8px;
     font-size: 20px;
     border-style: none;
    
-    font-weight: 400;
+    font-weight: 300px;
     
 }
 .feature-title{
     text-align: center;
     
     font-size: 40px;
-    font-weight: 400;margin: 50px;
+    font-weight: 400;
+    margin: 50px;
     
     
 }
 .f-info{
-    font-weight: 400;
+    font-weight: 200px;
 line-height: 30px;
-font-size: 20px;
+font-size: 10px;
 
 
 
@@ -98,9 +99,11 @@ height: 420px;
 }  
 .foot{
     background: #111010;
-    /* width: 1922px; */
-height: 449px;
-flex-shrink: 0;text-align: center;
+   
+height: 249px;
+;text-align: center;
+align-items: center;
+padding-top: 50px;
 
 
 }
@@ -110,11 +113,13 @@ flex-shrink: 0;text-align: center;
 .footer-info{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+    
+    font-size: 10px;
+   
+    font-weight: 200px;
     line-height: 30px;
+    margin: auto;
+
     
 }
 .copy-mama{
@@ -122,9 +127,9 @@ flex-shrink: 0;text-align: center;
 text-align: center;
 font-family: Lato;
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+
+font-weight: 400px;
+
 }
 .shop{
     color: #FFFF
@@ -166,7 +171,7 @@ background: rgba(71, 125, 17, 0.15);
    
     align-items:center;
     width:80%;
-height: 220px;
+height: 150px;
 margin: auto;
 margin-bottom :100px;
 border-radius: 8px;
@@ -187,15 +192,29 @@ background: rgba(39, 39, 39, 0.05);gap: 20px;
     background-size: cover;
     background-image: url(./images/Rectangle\ 9.png);
     width: 70%;
-    height: 40%;
+    height: 50%;
     margin: auto;
     padding: 20px;
     text-align: center;
     margin-bottom: 50px;
-    
+   
 }
 .input{
     display: flex;justify-content: center;
     gap: 10px;
 
+
+}
+/* .info{
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+} */
+.info-item{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+   
 }
