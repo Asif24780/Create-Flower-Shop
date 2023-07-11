@@ -230,7 +230,7 @@ background: rgba(39, 39, 39, 0.05);gap: 20px;
 .extra-2{
     background: #f5d8de;
     text-align: center;
-    width: 400px;
+    width: 300px;
     border: 5px solid fixed;
     border-radius: 15px;
     margin: auto;
@@ -238,4 +238,8 @@ background: rgba(39, 39, 39, 0.05);gap: 20px;
     margin-bottom: 50px;
     align-items: center;
     box-shadow: 4px 8px 4px grey;
+}
+.extra-pic{
+    border-radius: 50%;
+    margin-left: 20px;
 }
