@@ -218,3 +218,24 @@ background: rgba(39, 39, 39, 0.05);gap: 20px;
     border-radius: 5px;
    
 }
+.extra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f8b6c4;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.extra-2{
+    background: #f5d8de;
+    text-align: center;
+    width: 400px;
+    border: 5px solid fixed;
+    border-radius: 15px;
+    margin: auto;
+    height: 350px;
+    margin-bottom: 50px;
+    align-items: center;
+    box-shadow: 4px 8px 4px grey;
+}
